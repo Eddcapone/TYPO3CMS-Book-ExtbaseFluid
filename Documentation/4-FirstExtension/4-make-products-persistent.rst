@@ -49,7 +49,7 @@ Within the Extension we can access the data transparently by the repositories.
 "Transparently" means that we don't have to thought about the *type*
 of the storage of the data when accessing the repositories.
 
-So that the Backend now, how it should show the product data
+So that the Backend know, how it should show the product data
 in a form, we must configure this for the table in the file
 :file:`EXT:inventory/ext_tables.php`. This is stored in the Array ``$TCA`` under the
 table name as a key in the configuration. This comprises several sections. In
