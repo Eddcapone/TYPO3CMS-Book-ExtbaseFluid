@@ -42,7 +42,7 @@ following::
 	</table>
 
 The inventory is rendered as a table. We can access the
-the array with the product objects that we assigned to the view in the
+array with the product objects that we assigned to the view in the
 controller via ``$this->view->assign('products', $products)`` with ``{products}``.
 Tags starting with ``<f:`` are Fluid tags. The code inside the ``for`` tag is repeated for
 each product object in ``products``. The ``crop`` tag shortens the containing text to
